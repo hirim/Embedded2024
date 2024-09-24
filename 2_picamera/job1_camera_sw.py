@@ -26,9 +26,8 @@ try :
 			oldSw = newSw 
 			
 			if newSw == 1 : 
-
-				print('Click ' + str(cnt)) 
 				file_name = 'Click ' + str(cnt) 
+				print(file_name) 
 				picam2.capture_file(file_name+'.jpg')
 				cnt += 1 
 
